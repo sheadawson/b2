@@ -5,39 +5,39 @@
 body {}
 
 .embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 p {
-    @apply mb-3;
+  @apply mb-3;
 }
 
 h1 {
-    @apply text-green-500 text-3xl font-bold mb-10;
+  @apply text-green-500 text-3xl font-bold mb-10;
 }
 
 h2 {
-    @apply text-gray-500 text-2xl font-medium mb-6;
+  @apply text-gray-500 text-2xl font-medium mb-6;
 }
 
 h3 {
-    @apply text-gray-400 text-xl font-bold mb-4 pt-3;
+  @apply text-gray-400 text-xl font-bold mb-4 pt-3;
 }
 
-ul {
-    @apply list-disc pl-10 mb-6;
+ul.disc {
+  @apply list-disc pl-10 mb-6;
 }

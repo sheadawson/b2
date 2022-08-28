@@ -28,7 +28,12 @@ module.exports = {
           "800": "#29461B",
           "900": "#15250E"
         }
-      }
+      },
+
+      screens: {
+        'xs': '350px',
+        'apollo': '770px'
+      },
     },
   },
   plugins: [],
